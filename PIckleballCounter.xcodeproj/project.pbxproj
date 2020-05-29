@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84340FA02481961C008957CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84340F9F2481961C008957CA /* AppDelegate.swift */; };
+		84340FA22481961C008957CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84340FA12481961C008957CA /* SceneDelegate.swift */; };
+		84340FA42481961C008957CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84340FA32481961C008957CA /* ViewController.swift */; };
+		84340FA72481961C008957CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84340FA52481961C008957CA /* Main.storyboard */; };
+		84340FA92481961D008957CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84340FA82481961D008957CA /* Assets.xcassets */; };
+		84340FAC2481961D008957CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84340FAA2481961D008957CA /* LaunchScreen.storyboard */; };
+		84340FB12481961D008957CA /* PIckleballCounter WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 84340FB02481961D008957CA /* PIckleballCounter WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		84340FB72481961D008957CA /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84340FB52481961D008957CA /* Interface.storyboard */; };
+		84340FB92481961E008957CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84340FB82481961E008957CA /* Assets.xcassets */; };
+		84340FC02481961E008957CA /* PIckleballCounter WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 84340FBF2481961E008957CA /* PIckleballCounter WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		84340FC52481961E008957CA /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84340FC42481961E008957CA /* InterfaceController.swift */; };
+		84340FC72481961E008957CA /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84340FC62481961E008957CA /* ExtensionDelegate.swift */; };
+		84340FC92481961F008957CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84340FC82481961F008957CA /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84340FB22481961D008957CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84340F942481961C008957CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84340FAF2481961D008957CA;
+			remoteInfo = "PIckleballCounter WatchKit App";
+		};
+		84340FC12481961E008957CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84340F942481961C008957CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84340FBE2481961E008957CA;
+			remoteInfo = "PIckleballCounter WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84340FD02481961F008957CA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				84340FC02481961E008957CA /* PIckleballCounter WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84340FD42481961F008957CA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				84340FB12481961D008957CA /* PIckleballCounter WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		84340F9C2481961C008957CA /* PIckleballCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PIckleballCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84340F9F2481961C008957CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84340FA12481961C008957CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84340FA32481961C008957CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84340FA62481961C008957CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84340FA82481961D008957CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84340FAB2481961D008957CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84340FAD2481961D008957CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84340FB02481961D008957CA /* PIckleballCounter WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PIckleballCounter WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84340FB62481961D008957CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		84340FB82481961E008957CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84340FBA2481961E008957CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84340FBF2481961E008957CA /* PIckleballCounter WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PIckleballCounter WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84340FC42481961E008957CA /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		84340FC62481961E008957CA /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		84340FC82481961F008957CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84340FCA2481961F008957CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84340F992481961C008957CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84340FBC2481961E008957CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84340F932481961C008957CA = {
+			isa = PBXGroup;
+			children = (
+				84340F9E2481961C008957CA /* PIckleballCounter */,
+				84340FB42481961D008957CA /* PIckleballCounter WatchKit App */,
+				84340FC32481961E008957CA /* PIckleballCounter WatchKit Extension */,
+				84340F9D2481961C008957CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84340F9D2481961C008957CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84340F9C2481961C008957CA /* PIckleballCounter.app */,
+				84340FB02481961D008957CA /* PIckleballCounter WatchKit App.app */,
+				84340FBF2481961E008957CA /* PIckleballCounter WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84340F9E2481961C008957CA /* PIckleballCounter */ = {
+			isa = PBXGroup;
+			children = (
+				84340F9F2481961C008957CA /* AppDelegate.swift */,
+				84340FA12481961C008957CA /* SceneDelegate.swift */,
+				84340FA32481961C008957CA /* ViewController.swift */,
+				84340FA52481961C008957CA /* Main.storyboard */,
+				84340FA82481961D008957CA /* Assets.xcassets */,
+				84340FAA2481961D008957CA /* LaunchScreen.storyboard */,
+				84340FAD2481961D008957CA /* Info.plist */,
+			);
+			path = PIckleballCounter;
+			sourceTree = "<group>";
+		};
+		84340FB42481961D008957CA /* PIckleballCounter WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				84340FB52481961D008957CA /* Interface.storyboard */,
+				84340FB82481961E008957CA /* Assets.xcassets */,
+				84340FBA2481961E008957CA /* Info.plist */,
+			);
+			path = "PIckleballCounter WatchKit App";
+			sourceTree = "<group>";
+		};
+		84340FC32481961E008957CA /* PIckleballCounter WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				84340FC42481961E008957CA /* InterfaceController.swift */,
+				84340FC62481961E008957CA /* ExtensionDelegate.swift */,
+				84340FC82481961F008957CA /* Assets.xcassets */,
+				84340FCA2481961F008957CA /* Info.plist */,
+			);
+			path = "PIckleballCounter WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84340F9B2481961C008957CA /* PIckleballCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84340FD52481961F008957CA /* Build configuration list for PBXNativeTarget "PIckleballCounter" */;
+			buildPhases = (
+				84340F982481961C008957CA /* Sources */,
+				84340F992481961C008957CA /* Frameworks */,
+				84340F9A2481961C008957CA /* Resources */,
+				84340FD42481961F008957CA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84340FB32481961D008957CA /* PBXTargetDependency */,
+			);
+			name = PIckleballCounter;
+			productName = PIckleballCounter;
+			productReference = 84340F9C2481961C008957CA /* PIckleballCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84340FAF2481961D008957CA /* PIckleballCounter WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84340FD12481961F008957CA /* Build configuration list for PBXNativeTarget "PIckleballCounter WatchKit App" */;
+			buildPhases = (
+				84340FAE2481961D008957CA /* Resources */,
+				84340FD02481961F008957CA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84340FC22481961E008957CA /* PBXTargetDependency */,
+			);
+			name = "PIckleballCounter WatchKit App";
+			productName = "PIckleballCounter WatchKit App";
+			productReference = 84340FB02481961D008957CA /* PIckleballCounter WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		84340FBE2481961E008957CA /* PIckleballCounter WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84340FCD2481961F008957CA /* Build configuration list for PBXNativeTarget "PIckleballCounter WatchKit Extension" */;
+			buildPhases = (
+				84340FBB2481961E008957CA /* Sources */,
+				84340FBC2481961E008957CA /* Frameworks */,
+				84340FBD2481961E008957CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PIckleballCounter WatchKit Extension";
+			productName = "PIckleballCounter WatchKit Extension";
+			productReference = 84340FBF2481961E008957CA /* PIckleballCounter WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84340F942481961C008957CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Chris;
+				TargetAttributes = {
+					84340F9B2481961C008957CA = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					84340FAF2481961D008957CA = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					84340FBE2481961E008957CA = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 84340F972481961C008957CA /* Build configuration list for PBXProject "PIckleballCounter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84340F932481961C008957CA;
+			productRefGroup = 84340F9D2481961C008957CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84340F9B2481961C008957CA /* PIckleballCounter */,
+				84340FAF2481961D008957CA /* PIckleballCounter WatchKit App */,
+				84340FBE2481961E008957CA /* PIckleballCounter WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84340F9A2481961C008957CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84340FAC2481961D008957CA /* LaunchScreen.storyboard in Resources */,
+				84340FA92481961D008957CA /* Assets.xcassets in Resources */,
+				84340FA72481961C008957CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84340FAE2481961D008957CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84340FB92481961E008957CA /* Assets.xcassets in Resources */,
+				84340FB72481961D008957CA /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84340FBD2481961E008957CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84340FC92481961F008957CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84340F982481961C008957CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84340FA42481961C008957CA /* ViewController.swift in Sources */,
+				84340FA02481961C008957CA /* AppDelegate.swift in Sources */,
+				84340FA22481961C008957CA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84340FBB2481961E008957CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84340FC72481961E008957CA /* ExtensionDelegate.swift in Sources */,
+				84340FC52481961E008957CA /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84340FB32481961D008957CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84340FAF2481961D008957CA /* PIckleballCounter WatchKit App */;
+			targetProxy = 84340FB22481961D008957CA /* PBXContainerItemProxy */;
+		};
+		84340FC22481961E008957CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84340FBE2481961E008957CA /* PIckleballCounter WatchKit Extension */;
+			targetProxy = 84340FC12481961E008957CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84340FA52481961C008957CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84340FA62481961C008957CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84340FAA2481961D008957CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84340FAB2481961D008957CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		84340FB52481961D008957CA /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84340FB62481961D008957CA /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84340FCB2481961F008957CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84340FCC2481961F008957CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84340FCE2481961F008957CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MVDF27Y38;
+				INFOPLIST_FILE = "PIckleballCounter WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chris.PIckleballCounter.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		84340FCF2481961F008957CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MVDF27Y38;
+				INFOPLIST_FILE = "PIckleballCounter WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chris.PIckleballCounter.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		84340FD22481961F008957CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MVDF27Y38;
+				IBSC_MODULE = PIckleballCounter_WatchKit_Extension;
+				INFOPLIST_FILE = "PIckleballCounter WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chris.PIckleballCounter.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		84340FD32481961F008957CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MVDF27Y38;
+				IBSC_MODULE = PIckleballCounter_WatchKit_Extension;
+				INFOPLIST_FILE = "PIckleballCounter WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chris.PIckleballCounter.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		84340FD62481961F008957CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MVDF27Y38;
+				INFOPLIST_FILE = PIckleballCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chris.PIckleballCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84340FD72481961F008957CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MVDF27Y38;
+				INFOPLIST_FILE = PIckleballCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chris.PIckleballCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84340F972481961C008957CA /* Build configuration list for PBXProject "PIckleballCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84340FCB2481961F008957CA /* Debug */,
+				84340FCC2481961F008957CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84340FCD2481961F008957CA /* Build configuration list for PBXNativeTarget "PIckleballCounter WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84340FCE2481961F008957CA /* Debug */,
+				84340FCF2481961F008957CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84340FD12481961F008957CA /* Build configuration list for PBXNativeTarget "PIckleballCounter WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84340FD22481961F008957CA /* Debug */,
+				84340FD32481961F008957CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84340FD52481961F008957CA /* Build configuration list for PBXNativeTarget "PIckleballCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84340FD62481961F008957CA /* Debug */,
+				84340FD72481961F008957CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84340F942481961C008957CA /* Project object */;
+}
